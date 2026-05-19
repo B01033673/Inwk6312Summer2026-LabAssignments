@@ -13,3 +13,48 @@
 2026-05-19 15:33:17,915 - INFO - Pushing generated interface configuration matrix into 192.168.1.104
 2026-05-19 15:33:19,033 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.104.
 2026-05-19 15:33:19,045 - INFO - Lab 4 interface provisioning cycle finalized.
+2026-05-19 15:57:33,346 - INFO - Initializing Lab 4 Exercise Topology Configuration Run
+2026-05-19 15:57:33,374 - INFO - Configuration templates and variables parsed successfully
+2026-05-19 15:57:33,375 - INFO - Connecting via Netmiko to destination router: 192.168.1.101
+2026-05-19 15:57:34,032 - INFO - Pushing generated interface configuration matrix into 192.168.1.101
+2026-05-19 15:57:36,811 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.101.
+2026-05-19 15:57:36,844 - INFO - Connecting via Netmiko to destination router: 192.168.1.102
+2026-05-19 15:57:37,632 - INFO - Pushing generated interface configuration matrix into 192.168.1.102
+2026-05-19 15:57:39,185 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.102.
+2026-05-19 15:57:39,197 - INFO - Connecting via Netmiko to destination router: 192.168.1.103
+2026-05-19 15:57:40,014 - INFO - Pushing generated interface configuration matrix into 192.168.1.103
+2026-05-19 15:57:41,651 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.103.
+2026-05-19 15:57:41,694 - INFO - Connecting via Netmiko to destination router: 192.168.1.104
+2026-05-19 15:57:42,337 - INFO - Pushing generated interface configuration matrix into 192.168.1.104
+2026-05-19 15:57:44,011 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.104.
+2026-05-19 15:57:44,022 - INFO - Lab 4 interface provisioning cycle finalized.
+2026-05-19 16:00:40,456 - INFO - Initializing Lab 4 Exercise Topology Configuration Run
+2026-05-19 16:00:40,484 - INFO - Configuration templates and variables parsed successfully
+2026-05-19 16:00:40,485 - INFO - Connecting via Netmiko to destination router: 192.168.1.101
+2026-05-19 16:00:41,369 - INFO - Pushing generated interface configuration matrix into 192.168.1.101
+2026-05-19 16:00:44,033 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.101.
+2026-05-19 16:00:44,057 - INFO - Connecting via Netmiko to destination router: 192.168.1.102
+2026-05-19 16:00:44,895 - INFO - Pushing generated interface configuration matrix into 192.168.1.102
+2026-05-19 16:00:46,331 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.102.
+2026-05-19 16:00:46,363 - INFO - Connecting via Netmiko to destination router: 192.168.1.103
+2026-05-19 16:00:46,957 - INFO - Pushing generated interface configuration matrix into 192.168.1.103
+2026-05-19 16:00:48,547 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.103.
+2026-05-19 16:00:48,569 - INFO - Connecting via Netmiko to destination router: 192.168.1.104
+2026-05-19 16:00:49,375 - INFO - Pushing generated interface configuration matrix into 192.168.1.104
+2026-05-19 16:00:50,812 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.104.
+2026-05-19 16:00:50,833 - INFO - Lab 4 interface provisioning cycle finalized.
+2026-05-19 16:05:13,470 - INFO - Initializing Lab 4 Exercise Topology Configuration Run
+2026-05-19 16:05:13,494 - INFO - Configuration templates and variables parsed successfully
+2026-05-19 16:05:13,496 - INFO - Connecting via Netmiko to destination router: 192.168.1.101
+2026-05-19 16:05:14,123 - INFO - Pushing generated interface configuration matrix into 192.168.1.101
+2026-05-19 16:05:16,942 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.101.
+2026-05-19 16:05:16,954 - INFO - Connecting via Netmiko to destination router: 192.168.1.102
+2026-05-19 16:05:17,787 - INFO - Pushing generated interface configuration matrix into 192.168.1.102
+2026-05-19 16:05:19,312 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.102.
+2026-05-19 16:05:19,324 - INFO - Connecting via Netmiko to destination router: 192.168.1.103
+2026-05-19 16:05:20,256 - INFO - Pushing generated interface configuration matrix into 192.168.1.103
+2026-05-19 16:05:21,898 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.103.
+2026-05-19 16:05:21,910 - INFO - Connecting via Netmiko to destination router: 192.168.1.104
+2026-05-19 16:05:22,652 - INFO - Pushing generated interface configuration matrix into 192.168.1.104
+2026-05-19 16:05:24,310 - INFO - Execution successfully verified. Safely dropping connection to 192.168.1.104.
+2026-05-19 16:05:24,322 - INFO - Lab 4 interface provisioning cycle finalized.

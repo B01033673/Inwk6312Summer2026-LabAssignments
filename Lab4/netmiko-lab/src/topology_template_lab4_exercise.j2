@@ -12,3 +12,11 @@ interface {{ sub_int.name }}
  no shutdown
 !
 {% endfor %}
+exit
+!
+router rip
+ version 2
+ no auto-summary
+{% for network in rip_networks %}
+ network {{ network }}
+{% endfor %}

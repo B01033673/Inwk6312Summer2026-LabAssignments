@@ -35,9 +35,12 @@ except Exception as e:
 for host in hosts["hosts"]:
     try:
         logger.debug(f"Compiling interface schema string for host {host['name']}")
+        
+        # FIXED: Explicitly passing rip_networks to the Jinja2 template engine
         device_config = template.render(
             loopback=host["loopback"], 
-            sub_interfaces=host["sub_interfaces"]
+            sub_interfaces=host["sub_interfaces"],
+            rip_networks=host.get("rip_networks", [])
         )
         
         logger.info(f"Connecting via Netmiko to destination router: {host['name']}")
