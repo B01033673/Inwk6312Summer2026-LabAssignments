@@ -1,0 +1,44 @@
+hosts:
+  - name: 192.168.1.101
+    username: student
+    password: Meilab123
+    port: 22
+    type: cisco_ios
+    loopback:
+      name: Loopback201
+      description: "Description for Loopback 201"
+      ipv4_addr: 201.201.201.201
+      ipv4_mask: 255.255.255.255
+
+  - name: 192.168.1.102
+    username: student
+    password: Meilab123
+    port: 22
+    type: cisco_ios
+    loopback:
+      name: Loopback202
+      description: "Description for Loopback 202"
+      ipv4_addr: 202.202.202.202
+      ipv4_mask: 255.255.255.255
+
+  - name: 192.168.1.103
+    username: student
+    password: Meilab123
+    port: 22
+    type: cisco_ios
+    loopback:
+      name: Loopback203
+      description: "Description for Loopback 203"
+      ipv4_addr: 203.203.203.203
+      ipv4_mask: 255.255.255.255
+
+  - name: 192.168.1.104
+    username: student
+    password: Meilab123
+    port: 22
+    type: cisco_ios
+    loopback:
+      name: Loopback204
+      description: "Description for Loopback 204"
+      ipv4_addr: 204.204.204.204
+      ipv4_mask: 255.255.255.255

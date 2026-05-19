@@ -1,0 +1,14 @@
+interface GigabitEthernet1
+ no shutdown
+!
+interface {{ loopback.name }}
+ description Router ID Loopback
+ ip address {{ loopback.ip }} {{ loopback.mask }}
+!
+{% for sub_int in sub_interfaces %}
+interface {{ sub_int.name }}
+ encapsulation dot1Q {{ sub_int.vlan }}
+ ip address {{ sub_int.ip }} {{ sub_int.mask }}
+ no shutdown
+!
+{% endfor %}
